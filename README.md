@@ -38,3 +38,18 @@ A full-stack secure messaging backend built with:
 
 ### 📁 Project Structure
 
+secure-messaging-app/
+├── src/
+│ ├── config/ # DB, Swagger setup
+│ ├── controllers/ # API logic
+│ ├── models/ # Sequelize models
+│ ├── routes/ # Express routers
+│ ├── services/ # Business logic
+│ ├── sockets/ # Socket.IO handlers
+│ └── server.ts # App entry point
+├── .env # Environment variables
+├── Dockerfile
+├── docker-compose.yml
+├── tsconfig.json
+└── README.md
+
